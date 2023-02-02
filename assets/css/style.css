@@ -1,0 +1,148 @@
+* {
+    margin:0;
+    padding: 0 1em;
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.datos {
+    margin: 1em 2em;
+}
+.data {
+    margin-top: 3em;
+}
+dl {
+    margin: 1em 0;
+    display: flex;
+}
+dt {
+    font-weight: 600;
+}
+dd {
+    margin-left:-1em;
+}
+div {
+    margin-left: -6em;
+}
+.contacto {
+    display: flex;
+    flex-direction: row;
+    margin-left: -6em;
+    margin-top: -1em;
+}
+ 
+.banner {
+    background-image: url("../img/design1_image2.jpg");
+    object-fit: cover;
+    height: 50vh;
+}header>p {
+    text-align: center;
+}
+nav ul {
+    display:flex;
+    list-style: none;
+    background-color: rgb(214, 237, 245);
+    justify-content: flex-end;
+}
+nav ul li {
+    background-color: rgb(22, 162, 209);
+    padding: 0.5em 0.5em;
+    margin: 0.2em;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+}
+nav ul li a {
+    color:#fff;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #000;
+}
+header>h2, main>h2 {
+    text-align: center;
+    background-color: rgb(214, 237, 245);
+}
+nav>ul>li>a[href="#"]{
+    background-color: rgb(57, 170, 57);
+    padding: 0.5em .5em;
+}
+.logo {
+    width: 8em;
+}
+.main {
+    display: flex;
+}
+.container {
+    flex-direction: column;
+    align-self: center;
+
+}
+article {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6em;
+}
+section {
+    margin-top: 2em;
+}
+section h3,section>p {
+    margin-top: 1em;
+}
+section ol ol {
+    list-style: lower-alpha;
+    margin-left: 2em; 
+}
+section ol h3, section ol p {
+    display: inline;
+    margin-left: -1em;
+
+}
+section ol ol li{
+
+    margin-top: 0em; 
+}
+section ol li {
+    margin-top: 2em;
+}
+section ul {
+    list-style: circle;
+}
+section>p {
+    text-indent: 2em;
+    text-align: left;    
+}
+section>ul>li {
+    margin-left: 2em;
+}
+.ilus {
+    width: 20%;
+}
+.info {
+    display: flex;
+    align-items: flex-start;
+    margin: 2em 0em;
+    padding: 1em 0em;
+    justify-content: space-around;
+    background-color:rgb(214, 237, 245);
+}
+.info2 {
+    margin: 2em 0em;
+    padding: 1em 0em;
+    background-color:rgb(214, 237, 245);
+}
+.tabla {
+justify-content: space-evenly;
+}
+
+table {
+    background-color:rgb(214, 237, 245) ;
+    margin: .5em;
+}
+table th {
+    background-color:#000;
+    color: #fff;
+
+}
+table td {
+    background-color:white;
+    padding: .2em 0.5em;
+}
